@@ -1,6 +1,6 @@
 {
   "name": "sws-hamburger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hamburger menu script",
   "main": "src/index.js",
   "config": {

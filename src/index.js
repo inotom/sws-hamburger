@@ -1,14 +1,14 @@
-import existy from 'swsutils/src/existy';
-import attr from './attr.js';
-import css from './css.js';
-import display from './display.js';
+const existy = require('swsutils/src/existy');
+const attr = require('./attr.js');
+const css = require('./css.js');
+const display = require('./display.js');
 
 const KEY_ENTER = 13;
 
 const ACTIVE_BODY_CLASS_NAME = 'sws-hamburger-is-active';
 const ACTIVE_CLASS_NAME = 'sws-hamburger-handle-is-active';
 
-export default () => {
+module.exports = () => {
 
   const elSwsHamburger = document.getElementById('sws-hamburger');
 

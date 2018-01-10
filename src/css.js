@@ -1,7 +1,7 @@
-import existy from 'swsutils/src/existy';
-import attr from './attr.js';
+const existy = require('swsutils/src/existy');
+const attr = require('./attr.js');
 
-export default (el) => {
+module.exports = (el) => {
   let size    = parseInt(attr(el, 'data-sws-hamburger-size', 50), 10);
   let weight  = parseInt(attr(el, 'data-sws-hamburger-weight', 3), 10);
   let bgColor = attr(el, 'data-sws-hamburger-bg-color', '#ffc966');
